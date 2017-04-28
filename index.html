@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<script type="text/javascript" src="jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Pomodoro Clock</h1>
+		<div class="settingPanel clearfix">
+			<div class="breakLength">
+				<h4>BREAK LENGTH</h4>
+				<div>
+				    <span class="minus">-</span>
+				    <span class="show">5</span>
+				    <span class="plus">+</span>
+				</div>
+			</div>
+			<div class="sessionLength">
+				<h4>SESSION LENGTH</h4>
+				<div>
+				    <span class="minus">-</span>
+				    <span class="show">25</span>
+				    <span class="plus">+</span>
+				</div>
+			</div>			
+		</div>
+		<div class="clockPanel">
+			<canvas id="clockPanel" width=250 height=250></canvas>
+			<div class="clockInfo">
+			    <h3 class="currentMode">Session</h3>
+			    <div class="clock">
+				        <span class="minutes">25</span>
+				        <span>:</span>
+				        <span class="seconds">00</span>
+			    </div>
+			    <h4>Click to Start/Stop</h4>
+			</div>
+		</div>
+
+		
+
+	</div>
+</body>
+</html>
